@@ -9,6 +9,7 @@ This project provides a skeleton for any further RESTful API development. It imp
 
 ## Features
 
+- **Swagger** integrated using `swagger-ui-express` and `swagger-jsdoc`
 - **Authentication and Authorization:** Bearer JWT Token
 - **No-SQL Database:** [MongoDB](https://www.mongodb.com/) (can be installed locally or using a cloud version of [*MongoDB Atlas*](https://www.mongodb.com/atlas))
 - **Validation:** [Ajv](https://ajv.js.org/) JSON schema validator
