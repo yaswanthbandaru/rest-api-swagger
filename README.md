@@ -1,13 +1,4 @@
 # Node.JS REST API Starter Kit
-
-[![Author](http://img.shields.io/badge/author-@lquyet-pink.svg)](https://www.linkedin.com/in/minhquyetle/)
-[![GitHub license](https://img.shields.io/github/license/lquyet/rest-api?color=white)](https://github.com/lquyet/rest-api/blob/main/LICENSE)
-![GitHub repo size](https://img.shields.io/github/repo-size/lquyet/rest-api)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/f081ba0b67bb41a7a033adc36ecff0d0)](https://www.codacy.com/gh/lquyet/rest-api/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=lquyet/rest-api&amp;utm_campaign=Badge_Grade)
-![Github Action](https://img.shields.io/github/workflow/status/lquyet/rest-api/Node.js%20CI/main)
-
-A feature-rich boilerplate for NodeJS RESTful API Development
-
 ## Getting started
 
 This project provides a skeleton for any further RESTful API development. It implements the **3 Layer Architecture**, which are Controller, Service Layer and Data Access Layer.
@@ -15,10 +6,6 @@ This project provides a skeleton for any further RESTful API development. It imp
 <p align="center"> <img src="https://i.imgur.com/Qc1evoH.png" width="400" height="450" align="center"> </p>
 
 **Controller** will handle all stuffs related to requests and responses that are routed by *Router*. It will then call **Service Layer** methods which storing all business logic. The **Data Access Layer** will perform some operations on the database.
-
-## Advertise for Work
-
-I am open for a good job or work contract. Contact me with my email [quyetlm.work@gmail.com](mailto:quyetlm.work@gmail.com "quyetlm.work@gmail.com") or LinkedIn [Minh-Quyet Le](https://www.linkedin.com/in/minhquyetle/).
 
 ## Features
 
@@ -71,6 +58,10 @@ npm install
     ```
 
 3. Set the appropriate value for your environment variables.
+
+4. Go to `swagger.js` in the root folder for configuration
+
+5. Visit the `routes` folder for the `JsDoc` sample.
 
 ## Project structure
 
